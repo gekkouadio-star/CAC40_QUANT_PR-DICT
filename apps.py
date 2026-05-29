@@ -445,6 +445,26 @@ with st.expander(
 
 st.markdown("---")
 
-st.caption(
-    "Dashboard de Prédictions CAC40 — Quantitative Research Platform"
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+        background-color: #0E1117;
+        color: #888;
+        font-size: 12px;
+        border-top: 1px solid #222;
+    }
+    </style>
+
+    <div class="footer">
+        Dashboard de Prédictions CAC40 — Quantitative Research Platform — Gérard KOUADIO
+    </div>
+    """,
+    unsafe_allow_html=True
 )
