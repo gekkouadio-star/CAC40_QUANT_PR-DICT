@@ -1,0 +1,17 @@
+# Analyse et Manipulation de données
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Acquisition de données financières
+yfinance>=0.2.0
+
+# Modélisation IA
+xgboost>=1.7.0
+scikit-learn>=1.2.0
+
+# Dashboarding et Visualisation
+streamlit>=1.20.0
+plotly>=5.10.0
+
+# Utilitaires de développement
+pathlib
